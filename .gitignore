@@ -1,0 +1,35 @@
+/.claude
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ASR models (large files)
+models/
+*.onnx
+*.tar.bz2
+
+# Visual Studio cache
+.vs/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+!.vscode/tasks.json
+!.vscode/launch.json

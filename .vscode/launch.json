@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch VHF Scanner",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/VhfScanner.App/bin/Debug/net10.0/VhfScanner.App.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/VhfScanner.App",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+            "env": {
+                "DOTNET_ENVIRONMENT": "Development"
+            }
+        },
+        {
+            "name": "Attach to VHF Scanner",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}
